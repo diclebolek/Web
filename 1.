@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First Webpage</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header section start -->
+    <header>
+      <input type="checkbox" id="toggler" />
+      <label for="toggler" class="fas fa-bars"></label>
+      <a href="#" class="logo"><span>MY BLOG</span> </a>
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="mycity.html">My City</a>
+        <a href="interest.html">My İnterest</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="icons">
+        <a href="#" class="fas fa-user"></a>
+      </div>
+    </header>
+    <!-- header section end -->
+    <!-- home section starts -->
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Dicle Bölek</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed hic
+          dolores, libero est officiis necessitatibus fugiat voluptatum iusto
+          obcaecati! Magnam repellendus pariatur impedit velit, eos mollitia et?
+          Ea, mollitia illo.
+        </p>
+      </div>
+    </section>
+    <!-- home section ends -->
+    <!-- about section starts -->
+    <section class="about" id="about">
+      <h1 class="heading"><span>About</span> Me</h1>
+      <div class="row">
+        <div class="video-container">
+          <video
+            src="img/stock-video-beautiful-detail-of-a-lavender.mp4"
+            loop
+            autoplay
+            muted
+          ></video>
+        </div>
+        <div class="content">
+          <h3>Dicle Bölek</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores
+            adipisci placeat voluptas nam eos itaque ea omnis, expedita
+            cupiditate facere labore sit impedit nisi laborum temporibus debitis
+            illo minima nobis.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ut
+            illum esse soluta dolorum aliquid? Corrupti facere ut cum ea?
+          </p>
+          <a href="#" class="btn">cv</a>
+        </div>
+      </div>
+    </section>
+    <!-- about section ends -->
+  </body>
+</html>
